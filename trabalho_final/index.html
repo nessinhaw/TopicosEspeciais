@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Imobiliaria</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.14.0/js/all.js"></script>
+    <link rel="stylesheet" href="assets/css/bulma/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/css/bulma/css/style.css">
+  </head>
+  <body>
+  <section class="overlay"></section>
+  <section class="hero">
+    <div class="hero-head">
+      <nav class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <a href="index.html" class="navbar-item">
+              Imobiliaria
+            </a>
+            <span class="navbar-burger" data-target="navbarMenuHeroB">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenuHeroB" class="navbar-menu">
+            <div class="navbar-end">
+              <a href="lista-imoveis-comprar.html" class="navbar-item">
+                Comprar
+              </a>
+              <a href="lista-imoveis-alugar.html" class="navbar-item">
+                Alugar
+              </a>
+              <a class="navbar-item">
+                Anunciar Imóvel
+              </a>
+              <a href="area-cliente.html" class="navbar-item">
+                Área do cliente
+              </a>
+              <a class="navbar-item">
+                Contato
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="hero-body">
+      <div class="container">
+        <p class="title">
+          O que você procura?
+        </p>
+        <div class="nav-pesquisa mt-1">
+          <a class="nav-pesquisa-item subtitle mr-5 is-active">
+            Comprar
+          </a>
+          <a class="nav-pesquisa-item subtitle">
+            Alugar
+          </a>
+        </div>
+
+        <div class="field is-horizontal">
+          <div class="field-body">
+            <div class="field">
+              <label class="label">Cidade</label>
+              <div class="select">
+                <select>
+                  <option>Santa Maria</option>
+                  <option>Porto Alegre</option>
+                </select>
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Tipo</label>
+              <div class="select">
+                <select>
+                  <option>Apartamento</option>
+                  <option>Casa</option>
+                </select>
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Quartos</label>
+              <div class="select">
+                <select>
+                  <option>1 Quarto</option>
+                  <option>2 Quartos</option>
+                  <option>3 Quartos</option>
+                  <option>4 Quartos</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="field is-horizontal">
+          <div class="field-body">
+            <div class="field">
+              <label class="label">Bairro</label>
+              <div class="select">
+                <select class="select-bairro">
+                  <option>Camobi</option>
+                  <option>Centro</option>
+                </select>
+              </div>
+            </div>
+            <div class="field">
+              <label class="label">Preço</label>
+              <div class="select">
+                <select>
+                  <option>Até R$250mil</option>
+                  <option>Até R$500mil</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="field mt-5">
+          <p class="control">
+            <a href="pesquisa.html" class="button button-pesquisar">
+              Pesquisar
+            </a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- section imoveis para comprar -->
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Imóveis para comprar
+      </h1>
+      <div class="columns">
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by5">
+                <img src="assets/images/casa01.jpeg" alt="Placeholder image" class="card-imovel-image">
+              </figure>
+              <div class="imovel-tags">
+                <span class="tag">
+                  Santa Maria
+                </span>
+                <span class="tag">
+                  Casa
+                </span>
+                <span class="tag">
+                  0001
+                </span>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <div class="content">
+                    <p class="subtitle is-4">R$500.000,00</p>
+                  </div>
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="subtitle is-6">Camobi</p>
+                    </div>
+                    <div class="media-right">
+                      <div class="card-imovel-info">
+                        <span class="icon">
+                          <i class="fas fa-bed"></i>
+                        </span>
+                        <span class="card-imovel-text-info">3 Quartos</span>
+                        <span class="icon">
+                          <i class="fas fa-car"></i>
+                        </span>
+                        <span class="card-imovel-text-info">1 Carro</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by5">
+                <img src="assets/images/apartamento01.jpeg" alt="Placeholder image" class="card-imovel-image">
+              </figure>
+              <div class="imovel-tags">
+                <span class="tag">
+                  Santa Maria
+                </span>
+                <span class="tag">
+                  Apartamento
+                </span>
+                <span class="tag">
+                  0003
+                </span>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <div class="content">
+                    <p class="subtitle is-4">R$500.000,00</p>
+                  </div>
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="subtitle is-6">Centro</p>
+                    </div>
+                    <div class="media-right">
+                      <div class="card-imovel-info">
+                        <span class="icon">
+                          <i class="fas fa-bed"></i>
+                        </span>
+                        <span class="card-imovel-text-info">1 Quarto</span>
+                        <span class="icon">
+                          <i class="fas fa-car"></i>
+                        </span>
+                        <span class="card-imovel-text-info">1 Carro</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by5">
+                <img src="assets/images/salacomercial01.jpg" alt="Placeholder image" class="card-imovel-image">
+              </figure>
+              <div class="imovel-tags">
+                <span class="tag">
+                  Santa Maria
+                </span>
+                <span class="tag">
+                  Sala Comercial
+                </span>
+                <span class="tag">
+                  0003
+                </span>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <div class="content">
+                    <p class="subtitle is-4">R$500.000,00</p>
+                  </div>
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="subtitle is-6">N. Sra. de Lourdes</p>
+                    </div>
+                    <div class="media-right">
+                      <div class="card-imovel-info">
+                        <span class="icon">
+                          <i class="fas fa-bed"></i>
+                        </span>
+                        <span class="card-imovel-text-info">1 Quarto</span>
+                        <span class="icon">
+                          <i class="fas fa-car"></i>
+                        </span>
+                        <span class="card-imovel-text-info">1 Carro</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="lista-imoveis-comprar.html" class="button button-pesquisar">Ver mais</a>
+    </div>
+  </section>
+  <!-- section imoveis para alugar -->
+  <section class="section">
+    <div class="container">
+      <h1 class="title">
+        Imóveis para alugar
+      </h1>
+      <div class="columns">
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by5">
+                <img src="assets/images/casa01.jpeg" alt="Placeholder image" class="card-imovel-image">
+              </figure>
+              <div class="imovel-tags">
+                <span class="tag">
+                  Santa Maria
+                </span>
+                <span class="tag">
+                  Casa
+                </span>
+                <span class="tag">
+                  0001
+                </span>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <div class="content">
+                    <p class="subtitle is-4">R$3.000,00</p>
+                  </div>
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="subtitle is-6">Camobi</p>
+                    </div>
+                    <div class="media-right">
+                      <div class="card-imovel-info">
+                        <span class="icon">
+                          <i class="fas fa-bed"></i>
+                        </span>
+                        <span class="card-imovel-text-info">3 Quartos</span>
+                        <span class="icon">
+                          <i class="fas fa-car"></i>
+                        </span>
+                        <span class="card-imovel-text-info">1 Carro</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by5">
+                <img src="assets/images/apartamento01.jpeg" alt="Placeholder image" class="card-imovel-image">
+              </figure>
+              <div class="imovel-tags">
+                <span class="tag">
+                  Santa Maria
+                </span>
+                <span class="tag">
+                  Apartamento
+                </span>
+                <span class="tag">
+                  0003
+                </span>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <div class="content">
+                    <p class="subtitle is-4">R$1.000,00</p>
+                  </div>
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="subtitle is-6">Centro</p>
+                    </div>
+                    <div class="media-right">
+                      <div class="card-imovel-info">
+                        <span class="icon">
+                          <i class="fas fa-bed"></i>
+                        </span>
+                        <span class="card-imovel-text-info">1 Quarto</span>
+                        <span class="icon">
+                          <i class="fas fa-car"></i>
+                        </span>
+                        <span class="card-imovel-text-info">1 Carro</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by5">
+                <img src="assets/images/salacomercial01.jpg" alt="Placeholder image" class="card-imovel-image">
+              </figure>
+              <div class="imovel-tags">
+                <span class="tag">
+                  Santa Maria
+                </span>
+                <span class="tag">
+                  Sala Comercial
+                </span>
+                <span class="tag">
+                  0003
+                </span>
+              </div>
+              <div class="card-stacked">
+                <div class="card-content">
+                  <div class="content">
+                    <p class="subtitle is-4">R$1.500,00</p>
+                  </div>
+                  <div class="media">
+                    <div class="media-content">
+                      <p class="subtitle is-6">N. Sra. de Lourdes</p>
+                    </div>
+                    <div class="media-right">
+                      <div class="card-imovel-info">
+                        <span class="icon">
+                          <i class="fas fa-bed"></i>
+                        </span>
+                        <span class="card-imovel-text-info">1 Quarto</span>
+                        <span class="icon">
+                          <i class="fas fa-car"></i>
+                        </span>
+                        <span class="card-imovel-text-info">1 Carro</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="lista-imoveis-alugar.html" class="button button-pesquisar">Ver mais</a>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        Desenvolvido por <strong>Vanessa Staggemeier Soares</strong>,<br/> 
+        para a disciplina <strong>Tópicos Especiais em Informática</strong> do curso <strong>Técnico em Informática</strong>
+        do <a href="https://www.ufsm.br/unidades-universitarias/politecnico/" target="_blank">Colégio Politécnico - UFSM</a>.
+      </p>
+    </div>
+  </footer>
+  </body>
+</html>
